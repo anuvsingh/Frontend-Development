@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <form action="/error">
+        <div>
+            <label>Name: </label>
+            <input type="text">
+        </div>
+        <div>
+            <label>Sex: </label>
+            <input type="radio">
+            <label>Male</label>
+            <input type="radio">
+            <label>Female</label>
+        </div>
+        <div>
+            <label>Country: </label>
+            <select name="country">
+                <option value="select">Select an option</option>
+                <option value="india">India</option>
+                <option value="nepal">Nepal</option>
+                <option value="australia">Australia</option>
+                <option value="england">England</option>
+                <option value="america">America</option>
+                <option value="westindies">West Indies</option>
+                <option value="pakistan">Pakistan</option>
+            </select>
+        </div>
+        <div>
+            <label>Message: </label>
+        </div>
+        <div>
+            <textarea name="message" rows="5" cols="30"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe">
+            <label>Subscribe?</label>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

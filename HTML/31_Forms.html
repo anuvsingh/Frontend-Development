@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Forms are used to collect data from the user. -->
+    <!-- Inside form tag, there is most important attribute "action." -->
+    <!-- Action attribute is used to define what action needs to be performed when a form is submitted or where the form data should be sent. -->
+    <!-- Input: used to create multiple form controls. There are multiple types of inputs that can be created using type attribute. -->
+    <!-- Some type attributes are: text, password, number, time, color, etc.... -->
+    <!-- Placeholder Attribute: The placeholder attribute in HTML forms is used to display a short hint or example inside an input field. It provides users with a clue about the expected type of data or format for the input field. -->
+    <!-- Label: label element represents a caption for an item in a user interface. -->
+    <form action="/action">
+        <div>
+            <label for="username">Enter your Username</label>
+            <input type="text" id="username" placeholder="username">
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" placeholder="password"><br>
+        </div>
+        <div>
+            <label for="age">Enter Age</label>
+            <input type="number" placeholder="age" id="age">
+        </div>
+    </form>
+</body>
+
+</html>
