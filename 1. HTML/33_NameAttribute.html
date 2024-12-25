@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Attribute</title>
+</head>
+<body>
+    <form action="/server">
+        <!-- Name Attribute: Name of the form control. Submitted with the form as part of a name/value pair. -->
+    <form action="/action">
+        <div>
+            <label for="username">Enter your Username</label>
+            <input 
+            type="text" 
+            id="username" 
+            placeholder="enter username" 
+            name="user">
+        </div>
+        <div>
+            <label for="password">Enter Password</label>
+            <input 
+            type="password" 
+            id="password" 
+            placeholder="enter password" 
+            name="pass">
+        </div>
+        <button>Submit</button> <!-- http://127.0.0.1:5500/server?username= -->
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results?search_query=google">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+</body>
+</html>
