@@ -1,0 +1,8 @@
+div{
+    background-color: rgb(186, 225, 106);
+}
+
+/* input and button doesn't take properties so we do it by forcing them to inherit. */
+input, button {
+    background-color: inherit;
+}

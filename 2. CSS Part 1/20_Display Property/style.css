@@ -1,0 +1,32 @@
+/* h2 is by default block element */
+h2 {
+    display: inline;
+    background-color: pink;
+}
+
+/* span is by default inline element */
+.spans {
+    display: block;
+    background-color: yellow;
+}
+
+#inline {
+    background-color: greenyellow;
+    border: 2px solid black;
+    /* height and width are ignored by the browser to apply. */
+    height: 100px;
+    width: 200px;
+    /* padding & margin is only set within widths and from upper side browser ignored. */
+    padding: 50;
+    margin: 20px;
+}
+
+/* div is block element */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}

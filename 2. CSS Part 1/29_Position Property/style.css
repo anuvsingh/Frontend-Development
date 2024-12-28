@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    /* there will be no effect of top and left on static */
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: brown;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute{
+    background-color: turquoise;
+    position: absolute;
+    /* basically it has taken reference of top and left from the webpage */
+    top: 100px;
+    left: 100px;
+}
+
+#fixed{
+    background-color: chartreuse;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+}

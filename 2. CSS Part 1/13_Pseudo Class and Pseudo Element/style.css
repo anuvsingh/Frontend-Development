@@ -1,0 +1,41 @@
+/* :hover */
+button:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: overline;
+}
+
+/* :active - you have to click button to see. */
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+/* :checked - basically used on radio-button & checkbox */
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type - helps to select the nth element. */
+h3:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+/* h3:nth-of-type(4) {
+    background-color: cadetblue;
+} */
+
+/* ::first-letter */
+h1::first-letter {
+    color: red;
+}
+/* ::first-line */
+p::first-line {
+    color: purple;
+}
+/* selection - you have to select paragraph text to see. */
+p::selection {
+    background-color: yellowgreen;
+}

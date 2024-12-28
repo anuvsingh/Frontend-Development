@@ -1,0 +1,8 @@
+- **CSS** - Cascading Style Sheets.
+- **CSS** is used to style or design our webpages.
+- **CSS** is a language that is used to describe the style of a document.
+- To use css we should write html because there should be anything to style or design.
+- **Basic Format of CSS:** ![CSS Format](Resources/CSS%20Format.png)
+- **Selector** is used to target HTML elements that you want to style. It can be an element, class, ID, or even more complex structures like attribute selectors or pseudo-classes.
+- **Property** defines the specific aspect of an element you want to style, such as color, font size, or margin.
+- **Value** specifies the exact style for the property. It is assigned to the property after a colon (:) and is terminated with a semicolon (;).
