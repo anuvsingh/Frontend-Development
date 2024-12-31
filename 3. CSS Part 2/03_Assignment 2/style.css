@@ -1,0 +1,19 @@
+.container{
+    height: 50px;
+    width: 900px;
+    display: flex;
+    background-color: pink;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
+.info{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 40px;
+}
