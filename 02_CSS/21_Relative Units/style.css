@@ -1,0 +1,30 @@
+h1 {
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 50px;
+    font-size: 20px;
+}
+
+#inner{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+    /* 2em means 2 times of parent font size */
+    font-size: 2em; 
+}
+
+button {
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}

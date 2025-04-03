@@ -1,0 +1,12 @@
+/* Cascading */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: turquoise;
+}
+/* The final value will be last one declaration that is final declaration matlab joh baad mein aata hai */
+/* If we make a second file of css and write h3 as blue so blue will be applied because it was final declaration of the same selector. */
+
+/* Specificity */
+/* id > class > element */

@@ -1,0 +1,36 @@
+## Box Model
+The CSS box model as a whole applies to block boxes and defines how the different parts of a box — margin, border, padding, and content — work together to create a box that you can see on a page. Inline boxes use just some of the behavior defined in the box model.
+- **Height** - By default, it sets the content are & height of the element.
+- **Width** - By default, it sets the content area width of the element.
+- **Border** - Used to set an element's border.
+    - border-width
+    - border-style
+    - border-color
+    - border-sides: to control an individual side of box
+        - border-left
+        - border-right
+        - border-top
+        - border-bottom
+    - border-radius: used to round the corners of an element's outer border edge.
+- **Padding** - used to generate space around an element's content, inside of any defined borders.
+    - padding-left
+    - padding-right
+    - padding-top
+    - padding-bottom
+    - **Padding Shorthand**
+        - for all 4 sides
+        - top-bottom | left-right
+        - top | left-right | bottom
+        - top | right | bottom | left
+- **Margin** - used to set spacing on the outside of border.
+    - margin-left
+    - margin-right
+    - margin-top
+    - margin-bottom
+    - **Margin Shorthand**
+        - for all 4 sides
+        - top-bottom | left-right
+        - top | left-right | bottom
+        - top | right | bottom | left
+
+- *To understand more you can visit resources folder and see images of Box Model*

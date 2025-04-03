@@ -1,0 +1,17 @@
+* {
+    font-family: 'Courier New';
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+.fb {
+    background-color: aqua;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
