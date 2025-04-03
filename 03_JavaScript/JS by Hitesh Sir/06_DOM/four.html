@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+
+    // ADDING
+    function addLanguage(langName) {    // it is not optimise way, whenever you are calling the function it is traversing whole tree structure and then adding at last.
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector(".language").appendChild(li)
+    }
+    addLanguage("Java")
+    addLanguage("Python")
+
+    function addOptimizeLang(langName) {    // it is optimise way for adding
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector(".language").appendChild(li)
+    }
+    addOptimizeLang("C++")
+    addOptimizeLang("C")
+
+    // EDITING
+    const sec = document.querySelector("li:nth-child(3)")
+    console.log(sec);   //Python
+    const newLi = document.createElement("li")
+    newLi.textContent = "Mojo"
+    sec.replaceWith(newLi)
+    console.log(sec);   //Python
+
+    // Editing
+    const child = document.querySelector("li:nth-child(5)")
+    child.outerHTML = "<li>Ruby</li>"
+
+    // REMOVING
+    const removing = document.querySelector("li:nth-child(4)")
+    removing.remove();
+</script>
+</html>

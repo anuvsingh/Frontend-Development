@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+#clock {
+    font-size: 50px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    color: #212121;
+    font-weight: bold;
+}
