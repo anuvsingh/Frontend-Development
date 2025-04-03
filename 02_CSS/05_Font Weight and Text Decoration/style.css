@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+h2{
+    font-weight: bolder;
+    text-align: start;
+    text-decoration: dotted overline;
+}
+
+h3{
+    text-decoration: wavy red line-through
+}
+
+p{
+    text-decoration: red underline;
+}
+
+a{
+    text-decoration: none;
+}
