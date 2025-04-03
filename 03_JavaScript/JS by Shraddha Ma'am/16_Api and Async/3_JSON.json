@@ -1,0 +1,10 @@
+{
+    "name": "Anubhav Singh",
+    "age": 21,
+    "skills": ["Java", "HTML", "CSS", "JavaScript"],
+    "isLearning": true,
+    "education": {
+        "degree": "BCA",
+        "institute": "Rajarshi School of Management and Technology"
+    }
+}
