@@ -1,0 +1,35 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: grid;
+
+    /* these properties for set for single grid row or column that's why we have to write for all single rows or columns */
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+
+    row-gap: 10px;
+    column-gap: 10px;
+    /* or */
+    gap: 10px;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* or */
+    grid-column: 1/5;
+}
+.two{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* or */
+    grid-row: 1/4;
+}
+
+/* go and inspect webpage, you will learn many things. */
+
+.item{
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

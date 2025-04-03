@@ -1,0 +1,23 @@
+div {
+    height: 50px;
+    width: 250px;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+#first{
+    box-shadow: 10px 5px 5px red;
+}
+#second{
+    box-shadow: 60px -16px teal;
+}
+#third{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+#fourth{
+    box-shadow: inset 5em 1em gold;
+}
+#fifth{
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
